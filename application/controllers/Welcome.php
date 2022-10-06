@@ -22,6 +22,7 @@ class Welcome extends CI_Controller {
 	{
 		$data = array();
 		$data1 = array();
+		echo "hiiiiii";
 		$this->load->view('welcome_message');
 	}
 }
